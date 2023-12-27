@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageFragment"
+    android:id="@+id/FragmentContainer"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/security_screen"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_passcode"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp">
+        
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@drawable/ic_green_circle"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@drawable/ic_green_circle"
+            android:layout_marginStart="15dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@drawable/ic_green_circle"
+            android:layout_marginStart="15dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@drawable/ic_green_circle"
+            android:layout_marginStart="15dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="60dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/ic_white_circle"
+                android:id="@+id/one"
+                android:text="1"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/ic_white_circle"
+                android:id="@+id/four"
+                android:layout_marginTop="15dp"
+                android:text="4"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/ic_white_circle"
+                android:id="@+id/seven"
+                android:layout_marginTop="15dp"
+                android:text="7"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/ic_white_circle"
+                android:id="@+id/ic_fingerprint"
+                android:layout_marginTop="15dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/ic_white_circle"
+                android:id="@+id/two"
+                android:text="2"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/ic_white_circle"
+                android:id="@+id/five"
+                android:layout_marginTop="15dp"
+                android:text="5"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/ic_white_circle"
+                android:id="@+id/eight"
+                android:layout_marginTop="15dp"
+                android:text="8"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/ic_white_circle"
+                android:id="@+id/zero"
+                android:layout_marginTop="15dp"
+                android:text="0"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/ic_white_circle"
+                android:id="@+id/three"
+                android:text="3"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/ic_white_circle"
+                android:id="@+id/six"
+                android:layout_marginTop="15dp"
+                android:text="6"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/ic_white_circle"
+                android:id="@+id/nine"
+                android:layout_marginTop="15dp"
+                android:text="9"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/ic_white_circle"
+                android:id="@+id/delete"
+                android:layout_marginTop="15dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
